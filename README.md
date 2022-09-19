@@ -26,6 +26,6 @@ This directory will be the home to code for my paper. Tentative structure:
   - Code: 10 min avg PSD for each dataset and plots
   
 ### Misc
-    - Sensor noise test from wind tunnel
+  - Sensor noise test from wind tunnel
 
 	
