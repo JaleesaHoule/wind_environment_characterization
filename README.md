@@ -1,24 +1,31 @@
 # wind_environment_characterization
-raw data and analysis for paper
+
+## raw data and analysis for paper
+
+</br>
 
 This directory will be the home to code for my paper. Tentative structure:
 
-Wind Data Processing 
-  -> bin files; another directory link??
-  -> processing notebook and python files
-  -> HDF files (with lat lons converted to x,y,z for privacy reasons
+### Wind Data Processing 
+  - example bin files from one data collection day
+  - Code: preprocessing notebook 
+  - hdf files of preprocessed data with lat/lon information replaced w/ X,Y,Z uploaded to figshare
  
- Data Analysis
-  -> spatial code
-    -> mention of where to find control tower data 
-    -> 10 min chunks dfs??
-    -> show processing to get df
-  -> temporal code
-    -> show process to get df
-    -> include fulldf of data
-    -> show process to get heatmaps
-  -> plots 
-    -> spatial plots
-    -> temporal plots
-    -> statsmodel residuals 
-    -> other supplementary figures
+### Spatial analysis
+  - Data: WRCC control tower data collected from: https://wrcc.dri.edu/cgi-bin/rawMAIN.pl?nvsagh
+  - Data:10 min avg dfs for regression analysis 
+  - Code: How to get regression dfs and plots 
+
+### Temporal analysis
+  - Data: dfs for regression analysis 
+  - Code: process to get heatmap figures
+  - Code: regression analysis and plots
+	- separate folder for vertical regression analysis 
+
+### Frequency analysis
+  - Code: 10 min avg PSD for each dataset and plots
+  
+### Misc
+    - Sensor noise test from wind tunnel
+
+	
