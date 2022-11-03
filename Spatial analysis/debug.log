@@ -19,3 +19,9 @@ Limited Linear Model Support Detected!
 ---> Install CVXPY to use lineardiff derivatives 
 You can still use other methods 
 
+2022-11-03 14:37:21,740 [INFO] 
+Limited Linear Model Support Detected! 
+---> PYCHEBFUN is not installed. 
+---> Install pychebfun to use chebfun derivatives (https://github.com/pychebfun/pychebfun/) 
+You can still use other methods 
+
