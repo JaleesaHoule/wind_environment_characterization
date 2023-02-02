@@ -1,31 +1,30 @@
 # wind_environment_characterization
 
-## raw data and analysis for paper
+## raw data and analysis for wind characterization paper
 
 </br>
 
-This directory will be the home to code for my paper. Tentative structure:
+This directory will be the home to all data analysis, data itself will be published to Figshare. Repository structure:
 
-### Wind Data Processing 
-  - example bin files from one data collection day
-  - Code: preprocessing notebook 
-  - hdf files of preprocessed data with lat/lon information replaced w/ X,Y,Z uploaded to figshare
+### Raw Data Processing 
+  - Example bin files from data collected on 7/7/21
+  - Code: data preprocessing procedure and general time series plotting notebooks
  
 ### Spatial analysis
   - Data: WRCC control tower data collected from: https://wrcc.dri.edu/cgi-bin/rawMAIN.pl?nvsagh
-  - Data:10 min avg dfs for regression analysis 
-  - Code: How to get regression dfs and plots 
+  - Data:10 min averaged datasets for spatial regression analysis 
+  - Code: Data processing to obtain regression datasets and figures
 
 ### Temporal analysis
-  - Data: dfs for regression analysis 
+  - Data: datasets for both horizontal and vertical regression analysis 
   - Code: process to get heatmap figures
-  - Code: regression analysis and plots
-	- separate folder for vertical regression analysis 
+  - Code: horizontal and vertical regression analysis and figures
 
 ### Frequency analysis
-  - Code: 10 min avg PSD for each dataset and plots
+  - Code: 10 min averaged PSD for each dataset and corresponding figures
   
-### Misc
-  - Sensor noise test from wind tunnel
+### Sensor noise test
+  - Data: 30 minutes of sensor data collected from wind tunnel
+  - Code: comparison of data collected at different wind speeds along with smoothing parameters
 
 	
