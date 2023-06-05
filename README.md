@@ -8,7 +8,7 @@ This directory will be the home to all data analysis, raw data are hosted via Fi
 
 Repository structure:
 
-### Raw Data Processing 
+### Raw data processing 
   - Example bin files from data collected on 7/7/21
   - Code: data preprocessing procedure and general time series plotting notebooks
  
