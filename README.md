@@ -1,6 +1,6 @@
 # wind_environment_characterization
 
-## raw data and analysis for "Near-surface wind variability over spatiotemporal scales relevant to plume tracking insects" (https://doi.org/10.1063/5.0147945)
+## Data analysis for "Near-surface wind variability over spatiotemporal scales relevant to plume tracking insects" (https://doi.org/10.1063/5.0147945)
 
 </br>
 
