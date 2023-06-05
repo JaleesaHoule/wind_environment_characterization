@@ -4,7 +4,9 @@
 
 </br>
 
-This directory will be the home to all data analysis, raw data are hosted via Figshare: https://doi.org/10.6084/m9.figshare.21111610. Repository structure:
+This directory will be the home to all data analysis, raw data are hosted via Figshare (https://doi.org/10.6084/m9.figshare.21111610). 
+
+Repository structure:
 
 ### Raw Data Processing 
   - Example bin files from data collected on 7/7/21
